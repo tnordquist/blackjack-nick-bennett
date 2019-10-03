@@ -45,4 +45,5 @@ public class MainActivity extends AppCompatActivity {
     Collections.shuffle(cards);
     db.getCardDao().insert(cards);
   }
+
 }
